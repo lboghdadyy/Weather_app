@@ -1,0 +1,198 @@
+.loadingpage
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #41c9b7; */
+    font-size: 100px;
+     font-family: 'Fira Sans', sans-serif;
+    flex: 1;
+}
+
+html, body, #root {
+    justify-content: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#root
+{
+    display: flex;
+    background: linear-gradient( #EAAFC8FF, #654EA3FF);
+    align-items: center;
+}
+
+
+.the-actual-app
+{
+    background-color: aliceblue;
+    border-radius: 30px;
+    overflow: hidden;
+    height: 80vh;
+    width: 70%;
+    display: flex;
+}
+
+.title
+{
+    background: #201f1f;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: larger;
+    /* padding: 4px; */
+}
+
+a
+{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 10px;
+}
+
+.Day
+{
+    flex: 0.75;
+    background-image: url('assets/clouds.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    .temperature
+    {
+        font-family: 'Fira Sans', sans-serif;
+        /* color: antiquewhite; */
+    }
+}
+
+.Night
+{
+    flex: 0.75;
+    background-image: url('assets/night.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    .temperature
+    {
+        font-family: 'Fira Sans', sans-serif;
+        color: antiquewhite;
+    }
+}
+
+.ti-div
+{
+    .ti
+    {
+        opacity: 0.4;
+        font-weight: 100;
+        font-size: smaller;
+         font-family: 'Fira Sans', sans-serif;
+    }
+}
+
+.sidediv
+{
+    flex: 0.25;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.side
+{
+    border-radius: 5px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    h2
+    {
+        font-family: 'Fira Sans', sans-serif;
+        padding-left: 10px;
+    }
+}
+
+#credit
+{
+    /* padding-bottom: 3px; */
+    font-size: smaller;
+}
+
+.wind-speed
+{
+    display: flex;
+    padding-left: 5%;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: 'Fira Sans', sans-serif;
+    align-items: center;
+    #speed{
+    padding-left: 10px; 
+    }
+
+}
+
+.icon-side1
+{
+    background-color: #7B3BECFF;
+    border-radius: 5px;
+    width: 10%;
+    height: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side1
+{
+    flex: 0.20;
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    background: linear-gradient(#7F4CEDFF, #A465EAFF);   
+}
+
+.side2
+{
+    flex: 0.30;
+    background: linear-gradient(#4DA6D9FF, #8095C9);   
+}
+
+.side3
+{
+    flex: 0.30;
+    background: linear-gradient(#AAD0E8FF, #F0D3B9FF);   
+}
+
+.temperature
+{
+    padding-left: 3%;
+    font-family: 'Comic Relief', sans-serif;
+    font-size: 60px;
+    justify-content: end;
+}
+
+.topDiv
+{
+    flex: 0.95;
+}
+
+.t
+{
+    /* background-color: #162E93; */
+    font-family: 'Comic Relief', sans-serif;
+    /* color: #F0D3B9FF; */
+}
+
+.tempertature
+{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto';
+    font-size: large;
+    font-weight: bold;
+}
